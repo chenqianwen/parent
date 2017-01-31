@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="babasport-portal:war exploded">
+    <output-path>$PROJECT_DIR$/babasport-portal/target/babasport-portal</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="babasport-portal" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="babasport-interface-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="babasport-interface" />
+          </element>
+          <element id="archive" name="babasport-pojo-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="babasport-pojo" />
+          </element>
+          <element id="archive" name="babasport-common-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="babasport-common" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/babasport-portal/target/babasport-portal/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="babasport-portal/web/Web" />
+    </root>
+  </artifact>
+</component>
